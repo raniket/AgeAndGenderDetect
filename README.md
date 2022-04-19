@@ -6,8 +6,9 @@
 
 ### Step 1: Download the required files
 ```
-!git clone https://github.com/misbah4064/age_and_gender_detection.git
-%cd age_and_gender_detection
+!git clone https://github.com/raniket/AgeAndGenderDetect.git
+%cd AgeAndGenderDetect
+!unzip modelNweight.zip
 ```
 
 ### Step 2: Upload the images in `age_and_gender_detection` folder
