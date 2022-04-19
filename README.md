@@ -1,18 +1,18 @@
 # AgeAndGenderDetect
 
-## Go to Google Colab using this link https://colab.research.google.com  and follow the below steps. You can copy and pest each code snipit one by one and run them in Google Colab
+#### Go to Google Colab using this link https://colab.research.google.com  and follow the below steps. You can copy and pest each code snipit one by one and run them in Google Colab
 
 
 
-## Step 1: Download the required files
+### Step 1: Download the required files
 ```
 !git clone https://github.com/misbah4064/age_and_gender_detection.git
 %cd age_and_gender_detection
 ```
 
-## Step 2: Upload the images in `age_and_gender_detection` folder
+### Step 2: Upload the images in `age_and_gender_detection` folder
 
-## Setp 3: Import required modules
+### Setp 3: Import required modules
 ```
 import cv2 as cv
 import math
@@ -80,7 +80,7 @@ def age_gender_detector(frame):
     return frameFace
 ```
 
-## Step 4: Run the code, update the "image.jpg" with the uploaded image name
+### Step 4: Run the code, update the "image.jpg" with the uploaded image name
 ```
 input = cv.imread("image.jpg")
 output = age_gender_detector(input)
