@@ -11,9 +11,8 @@
 !unzip modelNweight.zip
 ```
 
-### Step 2: Upload the images in `age_and_gender_detection` folder
 
-### Setp 3: Import required modules
+### Setp 2: Import required modules
 ```
 import cv2 as cv
 import math
@@ -81,9 +80,9 @@ def age_gender_detector(frame):
     return frameFace
 ```
 
-### Step 4: Run the code, update the "image.jpg" with the uploaded image name
+### Step 2: Run the gender detector cmd
 ```
-input = cv.imread("image.jpg")
+input = cv.imread("alpa.jpeg")
 output = age_gender_detector(input)
 cv2_imshow(output)
 ```
